@@ -1,0 +1,81 @@
+* ::before ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+body{
+    background-color: #10172A;
+    color: white;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p{
+    font-family: serif;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.box{
+    height: 100%;
+    font-size: 40px;
+}
+
+/* width */
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+/* track */
+::-webkit-scrollbar-track{
+    border-radius: 100vh;
+    background:#1f2937;
+    -webkit-border-radius: 100vh;
+    -moz-border-radius: 100vh;
+    -ms-border-radius: 100vh;
+    -o-border-radius: 100vh;
+}
+
+
+/* Hablde */
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgb(134, 239, 172),rgb(59, 130, 246), rgb(147, 51, 234));
+}
+#caja{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px white solid;
+    
+}
+
+input{
+
+position: absolute;
+left: 10px;
+
+}
+
+span{
+    font-size:large
+    ;
+}
